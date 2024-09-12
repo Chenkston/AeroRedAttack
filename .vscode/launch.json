@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/samuelkravchenko/Temp_Repo/AeroRedAttack",
+      "program": "/Users/samuelkravchenko/Temp_Repo/AeroRedAttack/build/Debug/outDebug"
+    }
+  ]
+}
