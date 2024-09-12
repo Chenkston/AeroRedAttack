@@ -1,0 +1,12 @@
+redCounter: main.o redCounter.o
+    clang++ -Wall main.o redCounter.o -o redCounter
+
+main.o: main.cpp
+    clang++ -Wall -c -std=c++17 main.cpp 
+
+redCounter.o: redCounter.cpp
+    clang++ -Wall -c -std=c++17 redCounter.cpp
+
+# Clean rule
+clean:
+    rm -f redCounter.o main.o pokemon
