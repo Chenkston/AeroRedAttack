@@ -100,7 +100,7 @@ int main() {
         std::cout << "Failed to open directory: " << folderPath << std::endl;
     }
 
-    //Print out the 3 best pokemon.
+    //Print out the best pokemon.
     for (int i = 0; i < bestCount; i++) { 
         std::cout << "Best Pokemon " << i+1 << ": " << bestPokemon[i].first << " with attack value " << bestPokemon[i].second << std::endl;
     }
